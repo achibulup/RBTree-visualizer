@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+#control {
+  display: flex;
+  height: 100px;
+  padding: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#input {
+  width: 30px;
+  /* height: 30px; */
+}
+
+/* #insert, #delete {
+  width: 50px;
+  height: 30px;
+  border: 0px;
+}
+
+#insert {
+  background-color: chartreuse;
+  border-radius: 7px 0 0 7px;
+}
+
+#delete {
+  background-color: burlywood;
+  border-radius: 0 7px 7px 0;
+} */
+
+#graph-container {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+#graph {
+  max-width: 100%;
+  height: auto;
+  max-height: 900px;
+}
